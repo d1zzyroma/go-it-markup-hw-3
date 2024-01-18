@@ -1,12 +1,8 @@
 
-html {
-    box-sizing: border-box;
-}
-
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #434455;
     font-size: 16px;
 }
 
@@ -25,9 +21,7 @@ ul{
 
 h1{
     color: #fff;
-    margin: 0 auto;
-
-    text-align: center;  
+    margin: 0 auto; 
     font-size: 56px;
     font-weight: 700;
     line-height: 60px; 
@@ -52,24 +46,29 @@ h3{
 }
 
 .logo{
-    color: #2E2F42;
-    font-family: "Raleway";
+    color: var(--IRIS, #4D5AE5);
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
+    font-style: normal;
     font-weight: 700;
-    line-height: 21px; 
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    line-height: 1.17; 
+}
+
+.logo_span{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17; 
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
 
-.logo_span_blue{
-    color: var(--IRIS, #4D5AE5);
-    font-family: "Raleway";
-    font-size: 18px;
+.address {
     font-style: normal;
-    font-weight: 700;
-    line-height: 21px; 
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
 
 .nav_list_item a{
@@ -80,7 +79,7 @@ h3{
     color: #2E2F42;
 }
 
-.address_list_item a{
+.address_list .address_list_item a{
     color: var(--SLATE, #434455);
     font-style: normal;
     font-weight: 400;
@@ -164,9 +163,6 @@ h3{
     color: var(--OCEAN, #404BBF);
 }
 
-.nav_list_item a:active{
-    border-bottom: 2px solid var(--OCEAN, #404BBF);;   
-}
 
 .address_list_item a:hover,
 .address_list_item a:focus{
