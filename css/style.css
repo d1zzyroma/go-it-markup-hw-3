@@ -6,9 +6,6 @@ body{
     font-size: 16px;
 }
 
-* {
-    box-sizing: inherit;
-}
 a{
 
     text-decoration: none;
@@ -19,7 +16,7 @@ ul{
 }
 
 
-.section_title{
+.title{
     color: #fff;
     text-align: center;
     font-size: 56px;
@@ -27,7 +24,7 @@ ul{
     line-height: 1.07; 
     letter-spacing: 1.12px;
 }
-.section_title_2{
+.section_title{
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -39,7 +36,7 @@ ul{
 }
 
 
-h3{
+.title_3{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; 
@@ -73,7 +70,6 @@ h3{
 }
 
 .nav_list_item a{
-    
     font-weight: 500;
     line-height: 24px; 
     letter-spacing: 0.32px;
