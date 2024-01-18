@@ -170,3 +170,12 @@ h3{
 .hero_btn:focus{
     background: var(--OCEAN, #404BBF);
 }
+
+.moto_title{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.4px;
+}
