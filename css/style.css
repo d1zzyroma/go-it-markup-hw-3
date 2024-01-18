@@ -99,7 +99,7 @@ ul{
     cursor: pointer;
 }
 
-.moto_text{
+.plan_text{
     color: var(--SLATE, #434455);
     font-style: normal;
     font-weight: 400;
