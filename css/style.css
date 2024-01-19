@@ -15,8 +15,8 @@ ul{
     list-style: none;
 }
 
-
-.title{
+/* h1 */
+.title{    
     color: #fff;
     text-align: center;
     font-size: 56px;
@@ -24,7 +24,9 @@ ul{
     line-height: 1.07; 
     letter-spacing: 1.12px;
 }
-.title_2{
+
+/* h2 */
+.plan_title, .team_title, .portfolio_title{
     color: #2E2F42;
     text-align: center;
     font-size: 36px;
@@ -35,8 +37,8 @@ ul{
     text-transform: capitalize;
 }
 
-
-.title_3{
+/* h3 */
+.plan_list_title, .team_list_title, .portfolio_list_title{
     color:#2e2f42;
     font-size: 20px;
     font-weight: 500;
