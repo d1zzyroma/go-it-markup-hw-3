@@ -110,6 +110,10 @@ ul, ol{
     margin: 0;
 }
 
+.plan_list_title{
+    margin-bottom: 8px;
+}
+
 .logo{
     color: var(--IRIS, #4D5AE5);
     font-family: "Raleway", sans-serif;
@@ -269,9 +273,13 @@ ul, ol{
 
 .footer{
     background: var(--NAVY-BLUE, #2E2F42);
-    padding: 102px 0px 189px;
+    padding: 100px 0px 100px;
 }
 
+.footer_logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .footer_span{
     color: var(--CLOUD, #F4F4FD);
     font-family: "Raleway";
