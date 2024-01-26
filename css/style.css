@@ -11,6 +11,12 @@ body{
     font-size: 16px;
 }
 
+.container{
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 a{
     display: inline;
     text-decoration: none;
@@ -27,11 +33,12 @@ ul, ol{
     margin: 0;
 }
 
-.container{
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+img{
+    display: block;
 }
+
+
+
 
 .header{
     border-bottom: 1px solid  #E7E9FC;
@@ -239,18 +246,25 @@ ul, ol{
     padding-bottom: 120px;
 }
 
+.portfolio_title{
+    margin-bottom: 72px;
+}
 
 .port_inf{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-top: 72px;
+    row-gap: 48px;
 }
 
 .port_list_item{
     width: calc((100% - 24px * 2) / 3);
     display: flex;
     flex-direction: column;
+}
+
+.portfolio_list_title{
+    margin-bottom: 8px;
 }
 
 .port_list_text_wrapper{
