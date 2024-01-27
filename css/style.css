@@ -185,6 +185,9 @@ img{
     border-radius: 4px;
     margin: 0 auto;
     display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .plan_text{
@@ -246,7 +249,7 @@ img{
     padding-bottom: 120px;
 }
 
-.portfolio_title{
+.port_special{
     margin-bottom: 72px;
 }
 
@@ -255,6 +258,7 @@ img{
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+    border-radius: 0 0 4px 4px;
 }
 
 .port_list_item{
