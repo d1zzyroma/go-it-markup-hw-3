@@ -369,7 +369,9 @@ img{
     overflow: hidden; 
 }
 
-
+.overlay_text:hover{
+    transform: translateY(0%);
+}
 
 .overlay_text{
     position: absolute;
