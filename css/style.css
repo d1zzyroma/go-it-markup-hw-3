@@ -84,7 +84,6 @@ img{
     color: #404bbf;
     padding: 24px 0;
     display: block;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
 }
 
@@ -199,19 +198,17 @@ img{
     font-weight: 400;
     line-height: 24px; 
     letter-spacing: 0.32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero{
-    background-image: 
-    linear-gradient(
-        rgba(46,47,66,0.7),
-        rgba(46,47,66,0.7)
-    ),
-     url(../images/people-office\ 1.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
+    background-position:center;
 }
 
 .hero_btn{
@@ -229,6 +226,7 @@ img{
     min-width: 169px;
     height: 56px;
     border: none;
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .plan_text{
