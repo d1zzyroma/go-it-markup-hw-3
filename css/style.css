@@ -447,41 +447,45 @@ img{
     margin-top: 16px;
 }
 
-.footer_info_1{
+.footer_icon_list{
+    display: flex;
+     
+}
+
+.footer_wrap{
+    display: flex;
+}
+
+.footer_info_left{
     margin-right: 120px;
 }
 
-.footer_soc{
+.footer_info_left_text{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-bottom: 16px;
 }
-
-.footer_wrapper{
-    display: flex;
-    align-items: baseline;
-}
-
-.footer_icon_list{
-    display: flex;
-    gap: 16px;
-}
-
 
 .footer_icon_list_item{
-    background-color: #404BBF;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    padding: 12px;
 }
-
 .footer_icon_list_item:hover{
     background-color: #31d0aa;
 }
+
+.footer_icon_a{
+    width: 100%;
+    height: 100%;
+    background-color:#4d5ae5;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 
 .address_list_item a:hover,
 .address_list_item a:focus{
