@@ -209,7 +209,7 @@ img{
     padding-bottom: 188px;
     max-width: 1440px;
     background-position:center;
-    max-width: 100%;
+    margin: 0 auto;
 }
 
 .hero_btn{
@@ -447,6 +447,10 @@ img{
     margin-top: 16px;
 }
 
+.footer_info_1{
+    margin-right: 120px;
+}
+
 .footer_soc{
     font-weight: 500;
     font-size: 16px;
@@ -458,7 +462,7 @@ img{
 
 .footer_wrapper{
     display: flex;
-    gap: 120px;
+    align-items: baseline;
 }
 
 .footer_icon_list{
