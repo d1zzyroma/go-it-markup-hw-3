@@ -439,7 +439,7 @@ img{
 }
 
 .footer_text{
-    color: var(--CLOUD, #F4F4FD);
+    color:  #F4F4FD;
     max-width: 264px;
     font-weight: 400;
     line-height: 24px;
@@ -449,7 +449,7 @@ img{
 
 .footer_icon_list{
     display: flex;
-     
+    gap: 16px; 
 }
 
 .footer_wrap{
@@ -460,19 +460,21 @@ img{
     margin-right: 120px;
 }
 
-.footer_info_left_text{
+.footer_info_right_text{
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
 }
 
 .footer_icon_list_item{
     width: 40px;
     height: 40px;
 }
-.footer_icon_list_item:hover{
+
+.footer_icon_a:hover{
     background-color: #31d0aa;
 }
 
