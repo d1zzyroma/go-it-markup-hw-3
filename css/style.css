@@ -453,6 +453,7 @@ img{
 
 .footer_wrap{
     display: flex;
+    align-items: baseline;
 }
 
 .footer_info_left{
@@ -474,7 +475,8 @@ img{
     
 }
 
-.footer_icon_a:hover{
+.footer_icon_a:hover,
+.footer_icon_a:focus{
     background-color: #31d0aa;
 }
 
@@ -486,6 +488,7 @@ img{
     justify-content: center;
     align-items: center;
     display: flex;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
